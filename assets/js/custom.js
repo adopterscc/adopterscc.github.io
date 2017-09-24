@@ -21,6 +21,8 @@ jQuery(function($) {
       }
     });
 
+    $("#shiv_info").html('width='+$(window).width()+'px');
+
   // Collapse navbar on click
 
   $(document).on('click.nav','.navbar-collapse.in',function(e) {
