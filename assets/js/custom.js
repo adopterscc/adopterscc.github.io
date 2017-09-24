@@ -20,8 +20,35 @@ jQuery(function($) {
         $('.navbar').removeClass('past-main');
       }
     });
+    
+    if($(window).width()<=440 && $(window).width()>=335){
+      $("#canvas").css("height","700px");
+    }
+    if($(window).width()>440){
+      $("#canvas").css("height","612px");
+    }
+    if($(window).width()<=335){
+      $("#canvas").css("height","800px");
+    }
+    if($(window).width()<=310){
+      $("#canvas").css("height","850px");
+    }
 
-    $("#shiv_info").html('width='+$(window).width()+'px');
+    $(window).resize(function(){
+      if($(window).width()<=440 && $(window).width()>=335){
+        $("#canvas").css("height","700px");
+      }
+      if($(window).width()>440){
+        $("#canvas").css("height","612px");
+      }
+      if($(window).width()<=335){
+        $("#canvas").css("height","800px");
+      }
+      if($(window).width()<=310){
+        $("#canvas").css("height","850px");
+      }
+      console.log($(window).width());
+    });
 
   // Collapse navbar on click
 
