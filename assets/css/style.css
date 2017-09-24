@@ -1977,3 +1977,10 @@ canvas {
   width: 60%;
   border-bottom: 1px solid #ccc;
 }
+#abstractModal p {
+	font-size: 1em;
+	letter-spacing: normal;
+}
+#abstractModal h1 {
+	font-size: 1.3em;
+}
