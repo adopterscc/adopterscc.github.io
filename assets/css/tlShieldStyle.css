@@ -5,6 +5,7 @@
 #tlShieldExternalWrapper a{
     text-decoration: none;
 }
+
 .centerDivWrapper{
 	position: relative;
 }
@@ -32,12 +33,17 @@
 .tlShield,.tlShield img{
     position: fixed;
     bottom: 0;
-    right: -69px;
+    right: -62px;
     transition: right .4s;
 }
 
 #wrapperImage{
     opacity: 0;
+}
+
+#widget{
+    height: 46px;
+    width: 114px;
 }
 
 .tlShield:hover img{
@@ -110,7 +116,6 @@
     font-size: 16px;
     margin-top: 16px;
     margin-right: 12px;
-    font-weight: 900;
 }
 
 #header img{
@@ -144,7 +149,7 @@
 }
 
 #rows .row-ico{
-    background-image: url("../images/icon/ico.png");
+    background-image: url("../images/icon/ico-yellow.png");
 }
 
 #rows .row-malware{
