@@ -2,6 +2,9 @@
     font-family: "Arial";
 }
 
+#tlShieldExternalWrapper a{
+    text-decoration: none;
+}
 .centerDivWrapper{
 	position: relative;
 }
@@ -49,7 +52,7 @@
 #popup{
     width: 280px;
     position: fixed;
-    bottom: 60px;
+    bottom: 52px;
     right: 10px;
     animation: noneToBlock 1s;
     -webkit-animation: noneToBlock 1s; 
@@ -85,10 +88,6 @@
     line-height: 50px;
 }
 
-#tlShieldExternalWrapper a{
-    text-decoration: none;
-}
-
 #header a{
     font-size: 11px;
     float: right;
@@ -108,23 +107,22 @@
 
 #header h3{
     float: right;
-    font-size: 20px;
-    margin-top: 13px;
-    margin-right: 33px;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-right: 12px;
+    font-weight: 900;
 }
 
 #header img{
-    height: 40px;
-    width: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 2px;
+    margin-left: 4px;
 }
 
 #intro{
     background-color: #007AFF;
     cursor: pointer;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     text-align: center;
     color: rgb(255,255,255);
 }
@@ -145,11 +143,11 @@
     margin-top: 7px;
 }
 
-#rows .row-malware{
-    background-image: url("../images/icon/malware.png");
+#rows .row-ico{
+    background-image: url("../images/icon/ico.png");
 }
 
-#rows .row-ico{
+#rows .row-malware{
     background-image: url("../images/icon/malware.png");
 }
 
@@ -159,6 +157,18 @@
 
 #rows .row-phishing{
     background-image: url("../images/icon/phishing.png");
+}
+
+#rows .row-owasp{
+    background-image: url("../images/icon/owasp.png");
+}
+
+#rows .row-ddos{
+    background-image: url("../images/icon/ddos.png");
+}
+
+#rows .row-community{
+    background-image: url("../images/icon/community.png");
 }
 
 #rows .row-reviews{
