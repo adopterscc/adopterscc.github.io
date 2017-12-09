@@ -62,6 +62,7 @@
     right: 10px!important;
     animation: noneToBlock 1s!important;
     -webkit-animation: noneToBlock 1s!important; 
+    display: none;
 }
 
 @keyframes noneToBlock{
@@ -85,13 +86,12 @@
     background-color: white!important;
 }
 
-#tlShieldExternalWrapper #header i{
-    float: right!important;
-    color: rgb(190,191,193)!important;
-    width: 28px!important;
-    text-align: center!important;
+#tlShieldExternalWrapper #header #close{
     cursor: pointer!important;
-    line-height: 50px!important;
+    float: left!important;
+    margin-top: -8px!important;
+    margin-left: -8px!important;   
+    
 }
 
 #tlShieldExternalWrapper #header a{
@@ -105,7 +105,7 @@
     margin-top: 13px!important;
     margin-bottom: 13px!important;
     margin-left: 0px!important;
-    margin-right: 0px!important;
+    margin-right: 10px!important;
     line-height: 24px!important;
     border: 1px solid rgb(230,231,232)!important;
     background: rgb(244,245,246)!important;
@@ -115,11 +115,11 @@
     float: right!important;
     font-size: 16px!important;
     margin-top: 16px!important;
-    margin-right: 12px!important;
+    margin-right: 18px!important;
     font-weight: 600;
 }
 
-#tlShieldExternalWrapper #header img{
+#tlShieldExternalWrapper #header #shieldLogo{
     margin-top: 2px!important;
     margin-left: 4px!important;
 }
@@ -194,18 +194,15 @@
     background-color: white!important;
 }
 
-#tlShieldExternalWrapper #rows .tls-row i.fa-angle-right{
+#tlShieldExternalWrapper #rows .tls-row img{
     float: right!important;
-    line-height: 50px!important;
-    text-align: center!important;
-    margin-right: 5px!important;
-    color: #e6e7e8!important;
-    font-size: 25px!important;
+    height: 100%!important;
+    vertical-align: middle!important;
     opacity: 0!important;
     transition: all 0.2s linear!important;
 }
 
-#tlShieldExternalWrapper #rows .tls-row:hover i.fa-angle-right{
+#tlShieldExternalWrapper #rows .tls-row:hover img{
     opacity: 1!important;
 }
 

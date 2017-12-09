@@ -131,7 +131,7 @@ jQuery(function($) {
 		day: 'Day',
 		days: 'Days'
 	 }, function () {
-		alert('Done!');
+		//alert('Done!');
 	});
 
 /* ------ jQuery for Easing min -- */
